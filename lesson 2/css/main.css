@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500;700&display=swap');
+body {
+	background-color: aliceblue;
+	font-family: 'Inter', sans-serif;
+}
+.container {
+	width: 400px;
+	height: 400px;
+	border-radius: 10px;
+	background-color: #ffffff;
+}
+.title {
+	color: #252eff;
+	font-family: Inter;
+	font-size: 44px;
+	font-weight: 700;
+}
