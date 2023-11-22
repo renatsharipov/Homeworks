@@ -22,7 +22,7 @@ body {
 	font-family: Inter;
 	font-size: 44px;
 	font-weight: 700;
-	line-height: 53.25px;
+	line-height: 53px;
 	margin-top: 36px;
 }
 .auth__actions {
@@ -47,7 +47,7 @@ body {
 	font-size: 15px;
 	color: #ffffff;
 	text-transform: uppercase;
-	line-height: 18.15px;
+	line-height: 18px;
 	width: 153px;
 	height: 38px;
 	background-color: #252eff;
