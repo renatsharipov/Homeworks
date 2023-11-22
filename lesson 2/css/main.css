@@ -4,14 +4,54 @@ body {
 	font-family: 'Inter', sans-serif;
 }
 .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+.auth {
 	width: 400px;
 	height: 400px;
 	border-radius: 10px;
 	background-color: #ffffff;
+	text-align: center;
 }
-.title {
+.auth__title {
 	color: #252eff;
 	font-family: Inter;
 	font-size: 44px;
 	font-weight: 700;
+	line-height: 53.25px;
+	margin-top: 36px;
+}
+.auth__actions {
+	display: flex;
+	flex-direction: column;
+	gap: 18px;
+	margin-top: 53px;
+}
+.auth__input {
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 15px;
+	width: 352px;
+	height: 40px;
+	padding: 10px;
+	border: 2px solid #6066ff;
+	border-radius: 20px;
+}
+.auth_btn {
+	font-family: Inter;
+	font-weight: 500;
+	font-size: 15px;
+	color: #ffffff;
+	text-transform: uppercase;
+	line-height: 18.15px;
+	width: 153px;
+	height: 38px;
+	background-color: #252eff;
+	border-radius: 20px;
+	margin-top: 56px;
+	cursor: pointer;
 }
