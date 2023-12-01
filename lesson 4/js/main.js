@@ -97,7 +97,7 @@ const makeBotMove = () => {
 	}
 
 	board__item[bestMove].classList.add('player__second')
-	board__item[bestMove].innerHTML = `<img src='..//img/player__second.png'>`
+	board__item[bestMove].innerHTML = `<img src='././img/player__second.png'>`
 
 	counter++
 	checkWin()
@@ -177,8 +177,8 @@ board__item.forEach(item => {
 			item.classList.add(currentPlayer)
 			item.innerHTML = `<img src='${
 				currentPlayer === 'player__first'
-					? '..//img/player__first.png'
-					: '..//img/player__second.png'
+					? '././img/player__first.png'
+					: '././img/player__second.png'
 			}'>`
 
 			counter++
