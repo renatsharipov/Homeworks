@@ -1,0 +1,35 @@
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.actions {
+	display: flex;
+	flex-direction: row;
+}
+.actions__button {
+	cursor: pointer;
+	color: #747d8c;
+	text-align: center;
+	width: 100px;
+	padding: 10px;
+	background: #ced6e0;
+	margin: 5px;
+}
+.actions__button:hover {
+	background: #dfe4ea;
+}
+
+.result {
+	position: relative;
+
+	display: flex;
+	flex-direction: column;
+}
+.result__item {
+	background: #ced6e0;
+	width: 750px;
+	margin: 5px;
+	padding: 10px;
+}
